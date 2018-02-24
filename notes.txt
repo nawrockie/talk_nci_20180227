@@ -1,0 +1,20 @@
+TOFIX
+- slide 3 Rfam - 2400 families
+- outline - remove new features, replace with ?
+- update profile slides with pfam and rfam family numbers
+
+TODO
+- re-read Holley paper
+- read about 16S sequence conservation so I can point out one or more
+  specific regions and explain their function
+- learn purines/pyrimidines
+
+Timings 
+-> 9 min: beginnings of 'comparative sequence analysis informs biologists'
+      slide 
+-> 11 min: sequence and structure profiles
+-> 19 min: beginning of HMM path slide
+-> 24 min: beginning of Rmark
+-> 29 min: beginning of accelerating CM alignment
+-> 36 min: end of implications for Rfam
+
