@@ -1,0 +1,40 @@
+EPN, Tue Feb 20 12:11:52 2018
+
+=========================
+Interesting observations:
+
+There is a plausible Deinococcus model hit in a Verrucomicrobiae
+species that has 3 other YrlA hits.
+
+gi|223895557|gb|ABOX02000006.1|   -         Deinococcus_Y_RNA    RF01053    cm        1      126   198663   198524      -    no    1 0.61   0.0   36.8     0.019 ?   Pedosphaera parvula Ellin514 ctg203, whole genome shotgun sequence
+
+=========================
+Ideas:
+
+Make a T-arm finder, and remove any that overlap with tRNAs, what's
+left are candidate regions. If they're nearby the TROVE ORF, then
+that's even better.
+
+==========================
+Questions:
+
+- How did you pick the bacteria? phages? Did you identify all genomes
+  with TROVE proteins? What if phages have the Y RNA but not TROVE?
+  What about genomes with PNPase homologs but no TROVE?
+
+- Pol III promoters: tRNA has internal A-box B-box, do various Y RNA
+  groups have these? Could T-arm be just to get the promoter? 
+
+- Are all of these homologous to PNPase? I only searched for top two.
+<[(uniprot-reference)]> hmmstat $INF/db/pfam/pfam_31.0/Pfam-A.hmm | grep PNPase
+12457  PNPase               PF03726.13         18     2.47     83   0.68   0.72   0.64   0.11
+12458  PNPase_C             PF12111.7          22     4.82     37   1.47   1.40   1.46   0.29
+12459  PNP_phzG_C           PF10590.8         578     5.06     43   1.28   1.12   1.10   0.17
+12460  PNP_UDP_1            PF01048.19        114    13.30    234   0.59   0.61   0.47   0.02
+12951  Putative_PNPOx       PF01243.19        124    11.39     88   0.65   0.66   0.57   0.01
+
+- why is TROVE sporadically distributed in bacteria? horizontal
+  transfer??? Can bacterial TROVE HMM distinguish between eukaryotic
+  and bacterial TROVEs?
+
+
