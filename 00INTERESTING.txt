@@ -37,4 +37,27 @@ Questions:
   transfer??? Can bacterial TROVE HMM distinguish between eukaryotic
   and bacterial TROVEs?
 
+=================================
+EPN, Tue Feb 27 16:28:44 2018
+
+TROVE less than 40Kd
+midas motif (part of von willebrand)
+
+cyano has long AS stem
+
+2014 paper, second model with cyano with longer AS stem
+
+Validated
+P. propionicum - Science Translational Medicine manuscript
+B. thetaiotamicron
+Figure 1 in review manuscript
+
+Corynebacterium amycolatum SK46
+
+
+
+
+
+
+
 
